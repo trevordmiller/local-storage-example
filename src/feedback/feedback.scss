@@ -1,0 +1,17 @@
+.feedback {
+	padding: $spacing--m;
+	margin: $spacing--m;
+
+	&__title {
+		margin: 0 0 $spacing--m;
+	}
+
+	&__textarea {
+		padding: $spacing--s;
+		border: 1px solid $color__gray--light;
+		border-radius: $border-radius--base;
+		min-height: 5rem;
+		width: 100%;
+		max-width: 30rem;
+	}
+}
